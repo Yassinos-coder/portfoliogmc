@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+#header {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
+#navbarContent {
+  display: flex;
+  gap: 700px;
+  position: relative;
+  top: 25px;
+}
+
+#title {
+  font-size: 35px;
+  margin-left: 350px;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#ulnavbar {
+  font-size: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+#main {
+  margin: auto;
+  width: 80%;
+  margin-top: 100px;
+}
+
+#part1 {
+  position: relative;
+  width: 100%;
+}
+
+#part1 > h1 {
+  text-align: center;
+}
+
+#languages {
+  display: flex;
+  gap: 80px;
+}
+
+img {
+  width: 150px;
+  margin-left: 230px;
+  margin-top: 50px;
+}
+
+#paragraph {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 45px;
+}
+
+#part2 {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+}
+
+#part2 > h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 500px;
+  height: 5vh;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+textarea {
+  resize: none;
+  width: 500px;
+  height: 150px;
+}
+
+#userInputs {
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+#btnSendMsg {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+#btnSendMsg:hover {
+    background-color: white;
+    color: black;
+}
